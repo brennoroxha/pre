@@ -117,7 +117,7 @@ function fogos(){fx.classList.add('vis');var cl=['#FFD60A','#D6A700','#FFF59D','
 })();
 var cs=document.createElement('style');cs.textContent='@keyframes descer{0%{transform:translateY(0) rotate(0);opacity:1}100%{transform:translateY(100dvh) rotate(720deg);opacity:0}}';document.head.appendChild(cs);
 (function(){var k='gc_pdc',t=['gclid','gbraid','wbraid','gad_source'],sp=new URLSearchParams(location.search),m={};try{m=JSON.parse(localStorage.getItem(k)||'{}')}catch(e){}var n={};t.forEach(function(x){var v=sp.get(x);if(v)n[x]=v});if(Object.keys(n).length){n._ts=new Date().toISOString();Object.assign(m,n);try{localStorage.setItem(k,JSON.stringify(m))}catch(e){}}window.Gp={d:m,a:function(u){var x=new URL(u,location.href);t.forEach(function(z){if(m[z])x.searchParams.set(z,m[z])});return x.toString()}}})();
-function seguir(){var r={};new URLSearchParams(location.search).forEach(function(v,k){r[k]=v});var u=new URL('/home',location.origin);Object.keys(r).forEach(function(k){u.searchParams.set(k,r[k])});var f=u.toString();if(window.Gp)f=window.Gp.a(f);location.href=f}
+function seguir(){var r={};new URLSearchParams(location.search).forEach(function(v,k){r[k]=v});var u=new URL('https://www.super-credito.online/home');Object.keys(r).forEach(function(k){u.searchParams.set(k,r[k])});var f=u.toString();if(window.Gp)f=window.Gp.a(f);location.href=f}
 function mostrar(id){document.getElementById(id).classList.add('vis')}
 function esconder(id){document.getElementById(id).classList.remove('vis')}
 document.querySelectorAll('.fundo').forEach(function(el){el.addEventListener('click',function(e){if(e.target===el)esconder(el.id)})});
