@@ -9,11 +9,11 @@
 <title>Conectando</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Nunito',sans-serif;min-height:100dvh;background:#17140F;display:flex;flex-direction:column;align-items:center;padding:20px;padding-top:15dvh;overflow-x:hidden;position:relative}
+body{font-family:'Nunito',sans-serif;min-height:100dvh;background:linear-gradient(180deg,#3D2000 0%,#6B3A00 30%,#A06000 60%,#FFF4E0 100%);display:flex;flex-direction:column;align-items:center;padding:20px;padding-top:15dvh;overflow-x:hidden;position:relative}
 .fogos-caixa{position:fixed;inset:0;pointer-events:none;z-index:10;overflow:hidden;opacity:0;transition:opacity 0.5s}
 .fogos-caixa.vis{opacity:1}
 .fagulha{position:absolute;width:10px;height:10px;top:-20px;opacity:0.9}
-.cartao{background:#fff;border-radius:20px;padding:40px 28px 36px;width:100%;max-width:380px;text-align:center;box-shadow:0 18px 50px rgba(0,0,0,0.35);position:relative;z-index:5;overflow:hidden}
+.cartao{background:#fff;border-radius:20px;padding:40px 28px 36px;width:100%;max-width:380px;text-align:center;box-shadow:0 20px 60px rgba(61,32,0,0.2);position:relative;z-index:5;overflow:hidden}
 .barra-topo{position:absolute;top:0;left:0;width:100%;height:5px;background:#FFF0B5}
 .barra-avanco{height:100%;width:0;background:linear-gradient(90deg,#FFD60A,#D6A700);border-radius:0 3px 3px 0;transition:width 0.3s ease}
 .emblema{width:90px;height:90px;margin:20px auto 22px;position:relative}
@@ -39,7 +39,7 @@ body{font-family:'Nunito',sans-serif;min-height:100dvh;background:#17140F;displa
 .marca svg{width:16px;height:16px;fill:#8A6400}
 .seguro{display:flex;align-items:center;justify-content:center;gap:6px;font-size:12px;color:#9ca3af}
 .seguro svg{width:14px;height:14px;fill:#9ca3af}
-.fundo{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.45);z-index:100;align-items:center;justify-content:center;padding:16px}
+.fundo{display:none;position:fixed;inset:0;background:rgba(61,32,0,0.35);z-index:100;align-items:center;justify-content:center;padding:16px}
 .fundo.vis{display:flex}
 .modal{background:#fff;width:93%;max-width:500px;max-height:84vh;border-radius:16px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 12px 40px rgba(0,0,0,0.15)}
 .modal-cab{display:flex;justify-content:space-between;align-items:center;padding:16px 18px;border-bottom:1px solid #FFF0B5}
@@ -92,11 +92,11 @@ body{font-family:'Nunito',sans-serif;min-height:100dvh;background:#17140F;displa
 <footer style="padding:20px 14px;text-align:center;position:relative;z-index:5;margin-top:120dvh">
 <div class="seguro" style="margin-bottom:12px"><svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>Suas informações estão protegidas e criptografadas</div>
 <nav style="display:flex;flex-wrap:wrap;justify-content:center;gap:4px 12px;margin-bottom:8px">
-<a href="javascript:void(0)" onclick="mostrar('mT')" style="color:rgba(255,255,255,0.62);text-decoration:none;font-size:12px;font-weight:600">Termos de Uso</a>
+<a href="javascript:void(0)" onclick="mostrar('mT')" style="color:rgba(32,26,0,0.6);text-decoration:none;font-size:12px;font-weight:600">Termos de Uso</a>
 <span style="color:rgba(25,23,20,0.4);font-size:10px">&#9679;</span>
-<a href="javascript:void(0)" onclick="mostrar('mP')" style="color:rgba(255,255,255,0.62);text-decoration:none;font-size:12px;font-weight:600">Política de Privacidade</a>
+<a href="javascript:void(0)" onclick="mostrar('mP')" style="color:rgba(32,26,0,0.6);text-decoration:none;font-size:12px;font-weight:600">Política de Privacidade</a>
 </nav>
-<p style="margin:0;font-size:11px;color:rgba(255,255,255,0.45);line-height:1.8">
+<p style="margin:0;font-size:11px;color:rgba(32,26,0,0.5);line-height:1.8">
 Marta Mitico Valente Sociedade Individual de Advocacia<br>
 CNPJ: 16.924.906/0001-32<br>
 SHS Quadra 6, Conj. A, Bloco A, Salas 501 e 512 - Asa Sul<br>
